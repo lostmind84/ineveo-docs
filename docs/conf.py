@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Ineveo'
-copyright = '2018, Fabien Frick'
+copyright = '2018, Ineveo'
 author = 'Fabien Frick'
 
 # The short X.Y version
-version = ''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = '1.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -150,6 +150,6 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'Ineveo', 'Ineveo Documentation',
-     author, 'Ineveo', 'One line description of project.',
+     author, 'Ineveo', 'Solution d''optimisation des achats',
      'Miscellaneous'),
 ]

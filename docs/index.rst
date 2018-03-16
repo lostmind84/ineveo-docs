@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Ineveo's documentation!
+Bienvenue sur la documentation d'Ineveo !
 ==================================
 
 .. toctree::
@@ -12,7 +12,7 @@ Welcome to Ineveo's documentation!
 
 
 
-Indices and tables
+Sommaire
 ==================
 
 * :ref:`genindex`
