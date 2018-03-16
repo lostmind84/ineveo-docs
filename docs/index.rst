@@ -4,17 +4,28 @@
    contain the root `toctree` directive.
 
 Bienvenue sur la documentation d'Ineveo !
-==================================
+========================================
+
+Cette documentation a pour but de vous aider pour l'utilisation de notre plateforme. Vous y trouverez des procédures simples et détaillées.
+
+Elle se présente en deux sections distinctes :
+
+* :ref:`buyer-docs` 
+* :ref:`supplier-docs` 
+
+.. buyer-docs::
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Documentation acheteur:
 
+    buyer_subscription
 
+.. supplier-docs::
 
-Sommaire
-==================
+.. toctree::
+   :maxdepth: 2
+   :caption: Documentation fournisseur:
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    supplier_subscription
+
