@@ -1,4 +1,4 @@
-@ECHO OFF
+#@ECHO OFF
 
 pushd %~dp0
 
@@ -12,6 +12,11 @@ set BUILDDIR=_build
 set SPHINXPROJ=Ineveo
 
 if "%1" == "" goto help
+
+echo.
+echo.debug SPHINXBUILD env
+echo.%SPHINXBUILD%
+echo.
 
 %SPHINXBUILD% >NUL 2>NUL
 if errorlevel 9009 (
